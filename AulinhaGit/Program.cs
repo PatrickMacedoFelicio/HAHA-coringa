@@ -1,14 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Samuel é estranho?");
+Console.WriteLine("É impressão minha ou o mundo está ficando cada vez mais louco??\n\n>>SIM\n>>NÃO\n");
 string resposta = Console.ReadLine();
 Console.Clear();
-
-if (resposta == "sim")
+resposta = resposta.ToUpper();
+if (resposta == "SIM")
 {
-    Console.WriteLine("eu sabia");
+    Console.WriteLine("HAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHA\nHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHAHAHAHAHA\n");
 }
 else
 {
-    Console.WriteLine("é mentira");
+    Console.WriteLine("?");
 }
 
